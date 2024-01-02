@@ -1,0 +1,55 @@
+/* Section-hero */
+
+.hero {
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+  background: rgba(47, 48, 58, 0.40);
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image: url(../images/Img\ Overlay.png), url(../images/hero-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-title {
+  color: var(--white-cl--);
+  text-align: center;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  text-transform: uppercase;
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 4px;
+  background: var(--blue-cl--);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: var(--white-cl--);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.9;
+  letter-spacing: 0.96px;
+  width: 200px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  transition: color var(--animation-time--), bacground var(--animation-time--);
+
+}
+
+.btn:hover,
+.btn:focus {
+  color: var(--white-cl--);
+  background: #188CE8;
+}
