@@ -15,7 +15,7 @@
   padding-right: 22px;
   padding-left: 22px;
   border-radius: 4px;
-  background: #F5F4FA;
+  background:var(--bacground-section--);
   color: var(--black-cl--);
   text-align: center;
   font-family: var(--main-font--);
@@ -23,40 +23,31 @@
   font-style: normal;
   font-weight: 500;
   line-height: 1.62;
-  /* 162.5% */
   letter-spacing: 0.48px;
   border: none;
   cursor: pointer;
-
   transition: color var(--animation-time--), background var(--animation-time--), box-shadow var(--animation-time--);
-}
-
-.title-btn {
-  margin-right: 8px;
-
-}
-
-.title-btn:last-child {
-  margin-right: 0;
-
-}
-
-.btn-filters:hover,
-.btn-filters:focus {
+  &:hover,
+  &:focus {
   background: var(--blue-cl--);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
   color: var(--white-cl--);
 }
+}
 
-
+.title-btn {
+  margin-right: 8px;
+  &:last-child {
+  margin-right: 0;
+}
+}
 .portfolio-link {
   display: block;
   transition: box-shadow var(--animation-time--);
-}
-
-.portfolio-link:hover,
-.portfolio-link:focus {
+  &:hover,
+  &:focus {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+}
 }
 
 .container .list-portfolio {

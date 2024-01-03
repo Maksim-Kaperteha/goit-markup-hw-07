@@ -73,7 +73,7 @@
   bottom: -32px;
   margin-bottom: -1px;
   border-radius: 2px;
-  background: #2196F3;
+  background:var(--blue-cl--);
 }
 
 /*  Header-contacts */
@@ -102,7 +102,7 @@
 }
 }
 .header__link-contacts {
-  color: var(--silvheader__link-contactser-cl--);
+  color: var(--silver-cl--);
   font-size: 14px;
   font-style: normal;
   font-weight: 500;

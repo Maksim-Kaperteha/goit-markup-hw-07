@@ -46,10 +46,9 @@
   cursor: pointer;
   transition: color var(--animation-time--), bacground var(--animation-time--);
 
-}
-
-.btn:hover,
-.btn:focus {
+  &:hover,
+  &:focus {
   color: var(--white-cl--);
-  background: #188CE8;
+  background:var(--bacground-btn--);
+}
 }

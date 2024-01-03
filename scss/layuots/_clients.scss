@@ -1,6 +1,6 @@
 /* Section-clients */
 .clients-title {
-  color: #212121;
+  color:var(--black-cl--);
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -29,24 +29,22 @@
   width: 170px;
   height: 92px;
   border-radius: 4px;
-  border: 1px solid #AFB1B8;
+  border: 1px solid var(--color-icons--);
   transition: border var(--animation-time--);
-
+  
+  &:hover,
+  &:focus {
+  border: 1px solid var(--blue-cl--);
+ }
+  &:hover svg,
+  &:focus svg {
+  fill: var(--blue-cl--);
+  }
 }
 
 .cliens-icons {
   fill: var(--color-icons--);
   transition: fill var(--animation-time--);
-}
-
-.clients-link:hover,
-.clients-link:focus {
-  border: 1px solid #2196F3;
-}
-
-.clients-link:hover svg,
-.clients-link:focus svg {
-  fill: var(--blue-cl--);
 }
 
 .clients-item:not(:last-child) {
